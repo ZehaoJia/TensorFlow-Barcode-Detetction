@@ -29,7 +29,6 @@ The trained model is converted to a Tensorflow Lite model, a light weight versio
 **Integrate into Raspberry Pi System:**
 The light weight model is integrated in a functioning prototype that is able to detect the barcode of products being placed into a basket. This prototype is composed of a Raspberry Pi with a camera and ultrasonic sensors embedded into a laser cut crate. 
 ![proto2](https://github.com/ZehaoJia/TensorFlow-Barcode-Detetction/assets/171085428/a8e01577-2516-465c-8bd5-55c5c8203a44)
-![proto1](https://github.com/ZehaoJia/TensorFlow-Barcode-Detetction/assets/171085428/fa7c63d4-3bdb-474f-afb0-2e6687768cdb)
 
 A general overview of the prototype function can be described as:
 1. Ultrasonic sensors detect the motion of products being placed into the basket.
