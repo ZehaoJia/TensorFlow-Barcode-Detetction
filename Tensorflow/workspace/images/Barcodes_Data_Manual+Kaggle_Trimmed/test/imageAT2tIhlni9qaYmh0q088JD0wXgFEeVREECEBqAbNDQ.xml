@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>imageAT2tIhlni9qaYmh0q088JD0wXgFEeVREECEBqAbNDQ.jpg</filename>
+	<path>C:\Users\Kevin\Desktop\ObjectDetection3\TFODCourse\Tensorflow\workspace\images\test\imageAT2tIhlni9qaYmh0q088JD0wXgFEeVREECEBqAbNDQ.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2268</width>
+		<height>1877</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Barcode</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>893</xmin>
+			<ymin>664</ymin>
+			<xmax>1466</xmax>
+			<ymax>1120</ymax>
+		</bndbox>
+	</object>
+</annotation>

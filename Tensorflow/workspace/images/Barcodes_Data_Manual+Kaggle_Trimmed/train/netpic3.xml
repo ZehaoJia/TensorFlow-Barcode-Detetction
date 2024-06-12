@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>netpic3.jpg</filename>
+	<path>C:\Users\Kevin\Desktop\ObjectDetection3\TFODCourse\Tensorflow\workspace\images\train\netpic3.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>171</width>
+		<height>294</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Barcode</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>48</xmin>
+			<ymin>103</ymin>
+			<xmax>138</xmax>
+			<ymax>217</ymax>
+		</bndbox>
+	</object>
+</annotation>

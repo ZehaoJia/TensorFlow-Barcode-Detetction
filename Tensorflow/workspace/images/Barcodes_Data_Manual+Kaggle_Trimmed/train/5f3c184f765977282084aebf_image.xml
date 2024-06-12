@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>5f3c184f765977282084aebf_image.png</filename>
+	<path>C:\Users\Kevin\Desktop\ObjectDetection3\TFODCourse\Tensorflow\workspace\images\train\5f3c184f765977282084aebf_image.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>900</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Barcode</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>239</xmin>
+			<ymin>121</ymin>
+			<xmax>684</xmax>
+			<ymax>399</ymax>
+		</bndbox>
+	</object>
+</annotation>

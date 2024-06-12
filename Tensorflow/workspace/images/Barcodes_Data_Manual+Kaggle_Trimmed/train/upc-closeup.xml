@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>upc-closeup.jpg</filename>
+	<path>C:\Users\Kevin\Desktop\ObjectDetection3\TFODCourse\Tensorflow\workspace\images\train\upc-closeup.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1333</width>
+		<height>805</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Barcode</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>369</xmin>
+			<ymin>1</ymin>
+			<xmax>1189</xmax>
+			<ymax>377</ymax>
+		</bndbox>
+	</object>
+</annotation>
