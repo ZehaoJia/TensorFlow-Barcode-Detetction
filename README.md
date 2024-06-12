@@ -3,9 +3,7 @@
 # Automatic Checkout with Tensorflow Object Detection 
 ## Summary 
 This project entails using machine learning to automatically detect and extract barcodes from a live video feed in order to facilitate a seamless automatic checkout system. At the core of this system is an object detection model trained using Tensor Flow, and deployed as a Tensorflow Lite model to the Raspberry Pi. An overview of the project workflow is illustrated below:
-
-(Overview)
-
+![Overview](https://github.com/ZehaoJia/TensorFlow-Barcode-Detetction/assets/171085428/87bad81b-364b-4fcb-8a61-c7c28e2d7597)
 The following sections will document the approach to the project in chronological order. Note that only core script and training data are included in this repo as the trained models are too large to include. Tensorflow setup and model training are based on this [guide](https://github.com/nicknochnack/TFODCourse).
 
 ## 1. Setup 
@@ -22,8 +20,7 @@ Tensorflow and its required dependencies are installed with *Image_Collection.ip
 
 **Model Training:**
 The annotated data is converted to TFrecords(required for Tensorflow training) and the model is trained with *Model_Training.ipynb*. The specifications of the model trained is listed below:
-
-(spec)
+![Spec](https://github.com/ZehaoJia/TensorFlow-Barcode-Detetction/assets/171085428/d915b24d-21d7-4724-979a-bfd99347d0fd)
 
 ## 3. Deployment
 **Export to Tensorflow Lite:**
@@ -31,8 +28,8 @@ The trained model is converted to a Tensorflow Lite model, a light weight versio
 
 **Integrate into Raspberry Pi System:**
 The light weight model is integrated in a functioning prototype that is able to detect the barcode of products being placed into a basket. This prototype is composed of a Raspberry Pi with a camera and ultrasonic sensors embedded into a laser cut crate. 
-
-(Prototype image)
+![proto2](https://github.com/ZehaoJia/TensorFlow-Barcode-Detetction/assets/171085428/a8e01577-2516-465c-8bd5-55c5c8203a44)
+![proto1](https://github.com/ZehaoJia/TensorFlow-Barcode-Detetction/assets/171085428/fa7c63d4-3bdb-474f-afb0-2e6687768cdb)
 
 A general overview of the prototype function can be described as:
 1. Ultrasonic sensors detect the motion of products being placed into the basket.
@@ -47,8 +44,8 @@ The python script *TF_Lite_Deployment.py* is used to facilitate the listed funct
 
 **Training Evaluation:**
 The following figures illustrate the evaluation on model training.
-(Eval1)
+![Eval1PNG](https://github.com/ZehaoJia/TensorFlow-Barcode-Detetction/assets/171085428/f984977a-9930-4928-ad6e-1b9930aa44ec)
 
 **Deployment Results:**
-The following figures illustrate the results from prototype. 
-(Eval2)
+The following figures illustrate the barcode detection and extraction results from the prototype. 
+![Eval2PNG](https://github.com/ZehaoJia/TensorFlow-Barcode-Detetction/assets/171085428/549514d2-63c5-4bea-a904-7ef774b72b64)
